@@ -1,7 +1,7 @@
 'use client'
 
-import VapiWidget from "@/components/Vapi-widget";
-import { vapiconfi } from "@/components/vapiconfig";
+import VapiWidget from "../../../components/Vapi-widget";
+import { vapiconfi } from "../../../components/vapiconfig";
 import { usePathname } from "next/navigation";
 
 export default function DemoNiche(){
