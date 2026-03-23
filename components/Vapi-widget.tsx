@@ -674,21 +674,6 @@ const VapiWidget: React.FC<VapiWidgetProps> = ({
             )}
           </div>
 
-          {/* Transcript */}
-          {isActive && (
-            <div className="vapi-transcript">
-              {transcript.map((msg, i) => (
-                <div key={i} className={`vapi-msg ${msg.role}`}>
-                  <span className="vapi-msg-label">
-                    {msg.role === 'assistant' ? 'AI' : 'YOU'}
-                  </span>
-                  <div className="vapi-msg-bubble">{msg.text}</div>
-                </div>
-              ))}
-              <div ref={transcriptEndRef} />
-            </div>
-          )}
-
           {/* Start Button (idle) */}
           {!isActive && (
             <button className="vapi-btn-start" onClick={startCall}>

@@ -62,14 +62,14 @@ export function Footer() {
           <p>&copy; 2026 Vioneer. All rights reserved.</p>
           <div className="flex gap-6 mt-4 sm:mt-0">
             <Link href="#" className="hover:text-cyan-400 transition-colors">
-              Twitter
+              Instagram
             </Link>
             <Link href="#" className="hover:text-cyan-400 transition-colors">
               LinkedIn
             </Link>
           </div>
         </div>
-      </div>
+      </div>  
     </footer>
   );
 }
