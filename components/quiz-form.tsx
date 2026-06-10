@@ -108,12 +108,6 @@ const questions: Question[] = [
     options: ["Stop missing leads", "Reduce workload", "Improve data entry"],
   },
   {
-    id: "monthlyBudget",
-    question: "If an AI guaranteed zero missed calls, what monthly budget makes sense?",
-    type: "select",
-    options: ["<$500", "$500-$1000", "$1000+"],
-  },
-  {
     id: "businessDescription",
     question: "Tell me about your business and your current front-desk setup.",
     type: "textarea",

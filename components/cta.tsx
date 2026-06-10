@@ -49,7 +49,7 @@ export function CTA() {
             </Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-slate-700 hover:bg-slate-800">
-            <Link href="#features">Explore Features</Link>
+            <Link href="/contact">Contact Us</Link>
           </Button>
         </div>
       </motion.div>

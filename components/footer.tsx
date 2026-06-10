@@ -15,7 +15,7 @@ export function Footer() {
             <h4 className="font-semibold text-white mb-4">Product</h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li>
-                <Link href="#features" className="hover:text-cyan-400 transition-colors">
+                <Link href="/features" className="hover:text-cyan-400 transition-colors">
                   Features
                 </Link>
               </li>
@@ -64,7 +64,7 @@ export function Footer() {
             <Link href="#" className="hover:text-cyan-400 transition-colors">
               Instagram
             </Link>
-            <Link href="#" className="hover:text-cyan-400 transition-colors">
+            <Link href="https://www.linkedin.com/company/vioneer/posts/?feedView=all&viewAsMember=true" className="hover:text-cyan-400 transition-colors">
               LinkedIn
             </Link>
           </div>
